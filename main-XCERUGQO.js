@@ -32,15 +32,15 @@ ${n.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       We are informed that the CS team "do not wish to provide source code access for our project".
     `,image:"assets/events/license_refusal.jpg"},{date:"2025/02/18",text:`
       Team Fortress 2 is added to the Source SDK 2013 by Valve's contractors, the "Distributing Source Engine Games / Mods" guidelines are updated.
-    `},{date:"2017/07/15",text:`  
-      The first development log for Classic Offensive is published, giving insight into the progress of the mod.  
-    `},{date:"2018/08/17",text:`  
-      We switch to monthly devlogs instead of one every few weeks due development slowing down.  
-    `},{date:"2020/02/02",text:`  
-      Development has been frozen for the past two months due to personal commitments and lack of available modders.<br/><br/>  
-      The team is too small to handle the workload, technical issues are creating a slowdown in progress and a drop in motivation.<br/><br/>  
-      Classic Offensive is not ready for release, even in Early Access, and the team refuses to compromise on quality just to push it out.<br/><br/>  
-      We are actively looking for modelers and mappers to join the project to help us achieve our vision for the best possible Counter-Strike experience.  
+    `},{date:"2017/07/15",text:`
+      The first development log for Classic Offensive is published, giving insight into the progress of the mod.
+    `},{date:"2018/08/17",text:`
+      We switch to monthly devlogs instead of one every few weeks due development slowing down.
+    `},{date:"2020/02/02",text:`
+      Development has been frozen for the past two months due to personal commitments and lack of available modders.<br/><br/>
+      The team is too small to handle the workload, technical issues are creating a slowdown in progress and a drop in motivation.<br/><br/>
+      Classic Offensive is not ready for release, even in Early Access, and the team refuses to compromise on quality just to push it out.<br/><br/>
+      We are actively looking for modelers and mappers to join the project to help us achieve our vision for the best possible Counter-Strike experience.
     `},{date:"2021/08/31",text:`
       <a class="link" target="_blank" href="https://www.twitch.tv/videos/1134252234">
         First gameplay showcase on our internal Steam build of the mod.
@@ -52,10 +52,11 @@ ${n.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       Dustfade grants us the use of some of their assets from Military Conflict: Vietnam for side-weapons like Condition Zero's LAW grenade launcher and M60 machine-gun.
     `},{date:"2021/08/27",type:"important",text:`
       Zorp creates a server-side hack to solve our server connection issues to allow players from our AppId (600380) to connect.<br/><br/>
-      Classic Offensive now ships a small version of Counter-Strike: Global Offensive's assets and binaries with the mod.
+      This is a temporary solution while we try to request a license again to fix this issue (we never got a reply again) or find a better solution that does not potentially break Valve's TOS.<br/><br/>
+    `},{date:"2021/08/27",type:"important",text:`
+      Classic Offensive now ships a small version of Counter-Strike: Global Offensive's assets and binaries with the mod.<br/><br/>
       Five gigabytes of space is needed and does not require CS:GO to be installed, only owning it on your account.<br/><br/>
-      We followed the guidelines for this process, it is the same as every Portal 2 mod on Steam (Source code license is not required).<br/><br/>
-      This is a temporary solution while we try to request a license again to fix this issue (we never got a reply again) or find a better solution that does not break Valve's TOS.
+      We followed the guidelines for this process, it is the same as every Portal 2 mod on Steam (Source code license is not required).
     `,image:"assets/events/distributing_assets.png"},{date:"2022/09/05",type:"important",text:`
       We are helped with plugin developers to create a server-side plugin to replace the previous hack solution to fix our hosting problems.<br/><br/>
       This solution used the official plugin interface.
@@ -77,7 +78,7 @@ ${n.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
     `,image:"assets/events/steam_refusal.jpg"},{date:"2025/03/12",type:"issue",text:"17 hours before releasing our update on ModDB, we are informed by Valve that our mod is potentially against the Steam Subscriber Agreement."},{date:"2025/03/13",text:`
       We adjust our build to be in line with the Steam Subscriber Agreement and the updated "Distributing Source Engine Games"
       guidelines following Team Fortress 2's SDK release, which introduced changes to the wiki.<br/><br/>
-      
+
       Mods outside of Steam are required to not redistribute official files from the modded game.
     `},{date:"2025/03/14",type:"issue",text:`
       Valve's stance is clarified as not allowing "derivative content" (mods) except on specific games of their intellectual properties.<br/><br/>
@@ -86,7 +87,7 @@ ${n.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
 
       By extrapolation, any Counter-Strike, Left 4 Dead, Day of Defeat, Portal mod or "skin" released outside of Steam,
       (on thirdparty websites like Gamebanana, ModDB, etc...) for the past three decades are now against their TOS.<br/><br/>
-      
+
       Modding Counter-Strike 2 would require significant effort and support from Valve, which is unlikely to happen given their focus on maintaining competitive integrity.
       Porting the mod isn't feasible, and attempting to modify CS2 would violate their TOS.
     `,image:"assets/events/no_steam.jpg",id:"tos"},{date:"2017/02/13",type:"issue",text:"CS:GO update breaks the ModDB version -> Hotfix 1.1c"},{date:"2017/05/24",type:"issue",text:"CS:GO update breaks the ModDB version -> Hotfix 1.1d"},{date:"2018/04/13",type:"issue",text:"CS:GO update breaks the ModDB version -> Hotfix 1.1t"},{date:"2019/01/27",type:"issue",text:`
@@ -106,7 +107,7 @@ ${n.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       despite the projects being distributed around the internet as we speak. They are seen as okay with it by the community as long as they are not too public about their project.
     `},{date:"2022/12/01",text:"Valve's contractors add VScript support to Team Fortress 2, allowing for very complex map and game-mode scripting."},{date:"2023/03/22",text:"Counter-Strike 2 is announced and is set to <b>replace</b> Counter-Strike: Global Offensive from Steam."},{date:"2023/04/12",text:`
       We request a code license again, in the hope that since Counter-Strike: Global Offensive is retired, they would grant it more easily.<br/><br/>
-      We never got any form of reply.      
+      We never got any form of reply.
     `},{date:"2023/09/27",text:'Counter-Strike 2 is released. CS:GO is permanently moved to the "csgo_legacy" beta branch.'},{date:"2025/03/16",text:`
       CS:Legacy is announced as a free Counter-Strike remake on Source SDK 2013.
       Their content is original and does not derivate official Counter-Strike assets.<br/><br/>
